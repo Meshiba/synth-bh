@@ -1,0 +1,23 @@
+flag_params:
+  plot: true
+
+exp_params:
+  n_seeds: 100
+  level: 0.1
+  epsilon: 0.1
+
+data_params:
+  initial_labeled: 500
+  n_train: 5000
+  p_train: null
+  n_cal: 2500
+  p_cal: 0.05
+  n_test: 1000
+  p_test: 0.05
+  p_trim: 0.02
+  dataset: "shuttle"
+  dataset_version: 1
+
+model_params:
+  model: "IF"
+  n_estimators: 100
